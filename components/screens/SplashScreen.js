@@ -8,7 +8,6 @@ export default function SplashScreen(props) {
           setTimeout(
             () => { 
                 resolve('result');
-                console.log("Resolve result..");
                 props.navigation.navigate('NavigationContainerScreen');
             },
             2000
@@ -21,7 +20,7 @@ export default function SplashScreen(props) {
     return (
         <View style={styles.viewStyles}>
             <Text style={styles.textStyles}>
-            Blitz Reading
+              My Keto Recipe
             </Text>
       </View>
     )
